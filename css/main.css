@@ -283,17 +283,3 @@ img {
     background-color: #275BEC;
     color: white;
 }
-
-.block {
-    width: 800px;
-    height: 400px;
-    background-color: blueviolet;
-}
-
-/*  Медиа-запрос desctop first (от большего к меньшему) для экранов с шириной до 800px (800px - это точка перелома) */
-@media (max-width: 800px) {
-    .block {
-        width: 400px;
-        background-color: coral;
-    }
-}
